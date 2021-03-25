@@ -1,0 +1,126 @@
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+  
+    --blue: hsl(248, 32%, 49%);
+  
+    --dark-blue: hsl(248, 31%, 71%);
+    --grayish-blue: hsl(246, 25%, 77%);
+  }
+  *,
+*:before,
+*:after {
+  margin: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-image: url(../images/bg-intro-mobile.png);
+    background-color: var(--red);
+  }
+  .main-container {
+    width: 280px;
+    margin: auto;
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.8rem;
+    padding: 0px 30px;
+    margin-top: 70px;
+  }
+  .about {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 50px;
+  }
+  .blue-container {
+    background-color: var(--blue);
+    padding: 17px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 6px hsla(249, 10%, 26%, 0.178);
+  }
+  .try-it {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin: auto 50px;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px hsla(249, 10%, 26%, 0.178);
+    margin-top: 20px;
+  }
+  fieldset {
+    border: none;
+  }
+  input {
+    width: 85%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--grayish-blue);
+    margin: 5px auto;
+    outline: none;
+  }
+  #firstname {
+    margin-top: 15px;
+  }
+  #firstname::placeholder,
+#lastname::placeholder,
+#email::placeholder,
+#password::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+.error-icon {
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 97% 49%;
+  border: 2px solid hsl(0, 100%, 74%) !important;
+}
+.error {
+  color: hsl(0, 100%, 74%);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: right;
+  font-size: 9px;
+}
+.btn {
+  width: 80%;
+  background-color: var(--green);
+  box-shadow: 0px 2px hsl(154, 86%, 28%);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 2.8rem;
+
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  color: white;
+  font-weight: 600;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.agree {
+  font-size: 9px;
+  color: var(--grayish-blue);
+  padding: 5px 40px 20px 40px;
+}
+.attribution {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+@media only screen and (min-width:768px){
+    .main-container{
+        display: flex;
+        width: 85%;
+        justify-content: center;
+        position: relative;
+
+    }
+    .content{
+        width: 33.3%;
+    }
+    .blue-container{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .main-container{
+        display: flex;
+        width: 65%;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+    .content{
+       align-self: center;
+    }
+}
